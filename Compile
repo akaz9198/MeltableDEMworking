@@ -1,0 +1,5 @@
+g++ -c -pipe -O2 -g -m64 -fopenmp -Wall -W -D_REENTRANT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I. -Isrc -Isrc/post_process -I. -o main.o src/main.cpp
+
+g++ -Wl,-O1 -g -m64 -fopenmp -o SD_parallel main.o    -L/usr/lib -lQtGui -lQtCore -lpthread 
+
+

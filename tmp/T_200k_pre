@@ -1,0 +1,10 @@
+./SD_parallel<<!
+CREATE 
+./data/cd_intit_shearp/200k 1
+SIZE_CELL 120 60 50
+PERIODIC_SHEAR
+UNIFORM
+DMIN 0.95
+DMAX 1.05
+NPART_FLOW 200000
+!

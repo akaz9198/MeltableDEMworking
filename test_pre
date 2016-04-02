@@ -1,0 +1,11 @@
+rm -rf ./data/cd_intit_shearp/polyd
+./SD_parallel<<!
+CREATE 
+./data/cd_intit_shearp/polyd 1
+SIZE_CELL 40 35 25
+PERIODIC_SHEAR
+UNIFORM
+DMIN 0.75
+DMAX 1.25
+NPART_FLOW 20000
+!

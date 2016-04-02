@@ -1,0 +1,6 @@
+rm -rf ./data/shear/post_process
+./SD_parallel<<!
+POST_PROCESS 
+./data/shear 1	100
+NO_MORE_TASK
+!

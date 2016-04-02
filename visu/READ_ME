@@ -1,0 +1,12 @@
+ You can run the code by calling: blender -P
+AnimateGrains7.py -- --directory="<full path to simulation data>"
+--start=<first timestep to render> --finish=<last timestep to render>
+--particles=<number of particles in simulation -r = 'yes'
+
+You will need to install blender and numpy as: sudo apt-get install
+blender numpy
+
+
+Pierre line  
+
+blender -P AnimateGrains.py -- --directory="/home/prognon/SD_parallel/data/plan/" --start=1 --finish=5 --particles=611
